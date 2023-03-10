@@ -1,0 +1,61 @@
+.client {
+  margin-top: 100px;
+  position: relative;
+}
+
+.client-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 120px;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 50vw;
+  max-height: 677px;
+}
+
+.client h2 {
+  flex-grow: 1;
+  flex-basis: 45%;
+}
+
+.client-description {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  gap: 16px;
+}
+
+.client a {
+  display: flex;
+  color: #5449D6;
+  margin-bottom: 80px;
+}
+
+a img {
+  margin-left: 16px;
+}
+
+.header-wrapper {
+  display: flex;
+  padding-top: 108px;
+}
+
+.card-container {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+
+.client-logos {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  height: 186px;
+  max-width: 1280px;
+  column-gap: 5%;
+  align-items: space-between;
+}

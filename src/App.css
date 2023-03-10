@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Quicksand:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #5A5A5A;
+}
+
+.App {
+  width: 100vw;
+}
+
+.n {
+  font-family: 'Nunito Sans';
+}
+
+.q {
+  font-family: 'Quicksand';
+}
+
+.m24 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.m18 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.m16 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.m11 {
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.b48 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.b32 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.b24 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.b16 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.b14 {
+  font-size: 14px;
+  font-weight: 700;
+}

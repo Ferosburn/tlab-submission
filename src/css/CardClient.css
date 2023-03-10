@@ -1,0 +1,40 @@
+.card-client {
+  border-radius: 8px;
+  position: relative;
+  min-height: 570px;
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+}
+
+.card-client h3 {
+  padding: 32px 24px;
+  flex-grow: 1;
+  color: white;
+}
+
+.profile-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  min-height: 112px;
+  width: 76%;
+  background-color: white;
+  padding: 24px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  border-radius: 0 8px;
+}
+
+.profile-description {
+  display: flex;
+  flex-direction: column;
+  gap: 4;
+  justify-content: center;
+}
+
+.profile-image {
+  height: 64px;
+  width: 64px;
+}

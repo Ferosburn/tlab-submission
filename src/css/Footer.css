@@ -1,0 +1,82 @@
+footer img {
+  width: 24px;
+  height: 24px;
+}
+
+.social-media {
+  margin-top: 24px;
+  margin-bottom: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+footer {
+  margin-top: 100px;
+  position: relative;
+  background-color: #049cfb0d;
+  overflow: hidden;
+}
+
+.footer-wrapper {
+  display: flex;
+  padding: 85px 120px 103px 120px;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+footer li {
+  list-style: none;
+}
+
+.footer-navigation {
+  padding-top: 18px;
+  margin-left: 84px;
+  display: flex;
+  gap: 110px
+}
+
+.footer-navigation ul {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.company p {
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+
+.layanan p {
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+
+.kontak {
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+
+.address {
+  margin-top: 48px;
+}
+
+.phone {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.phone img {
+  margin-right: 8px;
+}
+
+.rectangle {
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  background-color: #5A5A5A;
+  border-radius: 224px;
+  opacity: 0.1;
+  left: -223px;
+  bottom: -243px;
+}

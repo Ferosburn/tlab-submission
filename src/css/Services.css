@@ -1,0 +1,32 @@
+.services {
+  display: flex;
+  gap: 32px;
+  margin: 100px auto 0 auto;
+  padding: 0 120px;
+  max-width: 1200px;
+}
+
+.container-left {
+  display: flex;
+  flex-direction: column;
+  flex: 3 3 60%;
+  gap: 16px;
+}
+
+.container-right {
+  display: flex;
+  flex-direction: column;
+  flex: 2 2 40%;
+  gap: 32px;
+  justify-content: flex-end;
+}
+
+.services a {
+  display: flex;
+  color: #5449D6;
+  margin-bottom: 80px;
+}
+
+a img {
+  margin-left: 16px;
+}
